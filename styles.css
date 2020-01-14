@@ -1,0 +1,74 @@
+
+
+ul {
+	display:flex;
+	justify-content:space-between;
+	/*position:fixed;*/
+	width: 90%;
+}
+
+
+li{
+	list-style:none;
+	padding:20px;
+	margin-left: 30px;
+}
+
+.sad{
+	background-color: #5c819c;
+	color:#f7e6a1;
+}
+
+.happy{
+	background-color: #f7e6a1;
+	color:#5c819c;
+}
+.card {
+    transform: scale(1);
+}
+.card:hover {
+    transform: scale(1.5);
+}
+
+h1{
+	font-family: 'Playfair Display', serif;
+}
+
+a{
+	color:#2f383d;
+	text-decoration: none;
+	
+}
+a:hover {
+	cursor: pointer;
+	color:red;
+	text-decoration:underline;
+
+
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.falldown{
+    opacity: 0;
+    animation: new-item-animation .3s linear forwards;
+}
+
+@keyframes new-item-animation {
+    from {
+        opacity: 0;
+        transform: translateY(-150px);
+}
+
+    to {
+        opacity: 1;
+        transform : translateY(0);
+    }
+}
+
+
+
+
